@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/LinearView"
+   android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRINCIPAL AMOUNT :-"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/lblGivenValue"
+        android:layout_height="wrap_content"
+        android:text="Principal Amount:"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+</LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_below="@+id/LinearView"
+        android:headerDividersEnabled="true"
+        android:footerDividersEnabled="true">
+    </ListView>
+
+
+</RelativeLayout>
