@@ -46,7 +46,7 @@ public class InterestDetailsPage extends AppCompatActivity {
             else if (items.Days != 0)
             {
                 items.setTotalInterestPerYear(String.format("TOTAL INTEREST FOR \n%d DAY(S):-", items.Days));
-                items.setTotalAmountPerYear(String.format("TOTAL AMOUNT FOR \n%d YEAR(S)- %d MONTH(S)\n- %d DAY(S) WITH INTEREST:-", i-2, months, items.Days));
+                items.setTotalAmountPerYear(String.format("TOTAL AMOUNT FOR \n%d YEAR(S)- %d MONTH(S)\n- %d DAY(S) \nWITH INTEREST:-", i-1, months, items.Days));
             }
             else if (i == 1)
             {
